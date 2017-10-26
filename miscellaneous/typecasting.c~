@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+
+  int a,b;
+  float c;
+
+  x = 13; y = 3;
+  z = x/y;
+  printf("%d/%d = %.5f\n",x,y,z);
+
+  z = (float)x/y;
+  printf("%d/%d = %.5f\n",x,y,z);
+  
+}
