@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  int x;
+  float xroot;
+
+  printf("please enter an integer:");
+  scanf("%d",&x);
+  xroot = sqrt(x);
+  printf("x is %d and xsquared is %f\n",x,xroot);
+
+  return(0)
+}
